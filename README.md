@@ -8,40 +8,32 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17.5-4169E1?logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-8.0-DC382D?logo=redis&logoColor=white)
 
-## Установка проекта ✨
+
+## ✨ Установка проекта 
 ```bash
-git clone git@github.com:ivanitch/teletype-message-api.git teletype-message-api
+git clone git@github.com:ivanitch/fix-price-m.git fix-price-m
 
 # Или в текущую директорию
-git clone git@github.com:ivanitch/teletype-message-api.git .
+git clone git@github.com:ivanitch/fix-price-m.git .
 ```
 
-## Запуск контейнеров Docker 🚀
+## 🚀 Запуск контейнеров Docker
 ```bash  
 make build && make up && make app
 ```
 
-## В Docker-контейнере установить зависимости 📦
+## 📦 В Docker  установить зависимости 
 ```
 composer install
 ```
 
-Указать хост в файле `/etc/hosts`
-```bash
-echo "127.0.0.1 neo-teletype.app" | sudo tee -a /etc/hosts
-```
-
-## Postman ⚒️ 
+## ⚒️ Postman 
 
 ```
-GET https://neo-teletype.app/
-```
-Видим:
-```
-Hello, world! 👋 | Yii version 2.0.53
+GET http://fix-price-m.loc
 ```
 
-## Дополнительно 🔗
-- [Описание задачи](resources/Task.md)
-- [Примитивное решение задачи](resources/Solution.md)
-- [Продвинутое решение](resources/Advanced.md)
+```
+Hello, world 👋 | Yii version 2.0.53
+```
+
